@@ -6,7 +6,7 @@ function App() {
 
   const [count, setCount] = useState(0);
 
-  const handleIncrease = (value) => {
+  const handleIncrease = () => {
     return(
       setCount(count + 1)
       
